@@ -1,6 +1,6 @@
 const recursionWithoutMemoisation = function(n) {
     if (n <= 0) {
-        return;
+        return 0;
     }
     if (n <= 2) {
         return n -1;
